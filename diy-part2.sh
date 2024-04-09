@@ -8,8 +8,10 @@
 # Blog: https://p3terx.com
 #============================================================
 
-# Modify default IP
+# 修改默认IP
 sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generate
+sed -i "s/hostname='ImmortalWrt'/hostname='OpenWrt'/g" package/base-files/files/bin/config_generate
+sed -i "s/DISTRIB_DESCRIPTION=.*/DISTRIB_DESCRIPTION='OpenWrt BY CN2014 $(date +"%Y%m%d")'/g" package/base-files/files/etc/openwrt_release
 
 # Modify hostname
 #sed -i 's/OpenWrt/360T7/g' package/base-files/files/bin/config_generate
