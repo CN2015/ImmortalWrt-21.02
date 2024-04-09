@@ -50,7 +50,7 @@ sed -i 's/"Custom Commands"/"命令脚本"/g' `egrep "Custom Commands" -rl ./`
 sed -i 's/"Scheduled Reboot"/"定时重启"/g' `egrep "Scheduled Reboot" -rl ./`
 sed -i 's/"Argon Config"/"主题设置"/g' `egrep "Argon Config" -rl ./`
 sed -i 's/"Wake on LAN"/"网络唤醒"/g' `egrep "Wake on LAN" -rl ./`
-sed -i 's/"v2rayA"/"v2ray客服端"/g' `egrep "v2rayA" -rl ./`
+sed -i 's/"v2rayA"/"v2ray"/g' `egrep "v2rayA" -rl ./`
 sed -i 's/"DDNS-Go"/"动态域名"/g' `egrep "DDNS-Go" -rl ./`
 sed -i 's/"备份与升级"/"系统升级"/g' `egrep "备份与升级" -rl ./`
 
