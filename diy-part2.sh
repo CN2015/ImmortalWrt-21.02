@@ -45,3 +45,4 @@ sed -i 's/"IPTV Helper"/"IPTV助手"/g' `egrep "IPTV Helper" -rl ./`
 sed -i 's/"MWAN3 分流助手"/"分流助手"/g' `egrep "MWAN3 分流助手" -rl ./`
 sed -i 's/"服务质量(QoS)"/"服务质量"/g' `egrep "服务质量(QoS)" -rl ./`
 sed -i 's/"ADBYBY Plus +"/"广告拦截"/g' `egrep "ADBYBY Plus +" -rl ./`
+sed -i 's/"MWAN3 Helper"/"分流助手"/g' `egrep "MWAN3 Helper" -rl ./`
