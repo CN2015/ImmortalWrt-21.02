@@ -6,7 +6,7 @@ Auto build OpenWrt firmware for 360T7 via GitHub Actions
 
 | Default ip | Default user | Default password |
 | --- | --- | --- | 
-| 192.168.233.1 | root | - |
+| 192.168.6.1 | root | - |
 
 ## Main Functions
 
@@ -19,3 +19,5 @@ Auto build OpenWrt firmware for 360T7 via GitHub Actions
 - uPnP
 - ddns-go
 - wake-on-lan
+- msd_lite
+  
