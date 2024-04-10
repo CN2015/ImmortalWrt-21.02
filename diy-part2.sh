@@ -31,7 +31,7 @@ sed -i 's,mirrors.vsean.net/openwrt,mirrors.pku.edu.cn/immortalwrt,g'  package/e
 sed -i 's/"Release Ram"/"内存释放"/g' `egrep "Release Ram" -rl ./`
 sed -i 's/"Custom Commands"/"命令脚本"/g' `egrep "Custom Commands" -rl ./`
 sed -i 's/"Scheduled Reboot"/"定时重启"/g' `egrep "Scheduled Reboot" -rl ./`
-sed -i 's/"Argon Config"/"主题设置"/g' `egrep "Argon Config" -rl ./`
+sed -i 's/"Argon 主题设置"/"主题设置"/g' `egrep "Argon 主题设置" -rl ./`
 sed -i 's/"Wake on LAN"/"网络唤醒"/g' `egrep "Wake on LAN" -rl ./`
 sed -i 's/"v2rayA"/"v2ray"/g' `egrep "v2rayA" -rl ./`
 sed -i 's/"DDNS-Go"/"动态域名"/g' `egrep "DDNS-Go" -rl ./`
@@ -41,4 +41,6 @@ sed -i 's/"AList"/"文件搜刮"/g' `egrep "AList" -rl ./`
 sed -i 's/"AliDDNS"/"阿里DDNS"/g' `egrep "AliDDNS" -rl ./`
 sed -i 's/"frp Client"/"Frp客户端"/g' `egrep "frp Client" -rl ./`
 sed -i 's/"Multi Stream daemon Lite"/"MSD_lite"/g' `egrep "Multi Stream daemon Lite" -rl ./`
-sed -i 's/"IPTV Helper"/"IPTV助手"/g' `egrep "IPTV Helper" -rl ./`
+sed -i 's/"IPTV 帮手"/"IPTV助手"/g' `egrep "IPTV 帮手" -rl ./`
+sed -i 's/"MWAN3 分流助手"/"分流助手"/g' `egrep "MWAN3 分流助手" -rl ./`
+sed -i 's/"服务质量（QoS）"/"服务质量"/g' `egrep "服务质量（QoS）" -rl ./`
