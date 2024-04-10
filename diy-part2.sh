@@ -36,3 +36,9 @@ sed -i 's/"Wake on LAN"/"网络唤醒"/g' `egrep "Wake on LAN" -rl ./`
 sed -i 's/"v2rayA"/"v2ray"/g' `egrep "v2rayA" -rl ./`
 sed -i 's/"DDNS-Go"/"动态域名"/g' `egrep "DDNS-Go" -rl ./`
 sed -i 's/"备份与升级"/"系统升级"/g' `egrep "备份与升级" -rl ./`
+sed -i 's/"Terminal"/"终端"/g' `egrep "Terminal" -rl ./`
+sed -i 's/"AList"/"文件搜刮"/g' `egrep "AList" -rl ./`
+sed -i 's/"AliDDNS"/"阿里DDNS"/g' `egrep "AliDDNS" -rl ./`
+sed -i 's/"frp Client"/"Frp客户端"/g' `egrep "frp Client" -rl ./`
+sed -i 's/"Multi Stream daemon Lite"/"MSD_lite"/g' `egrep "Multi Stream daemon Lite" -rl ./`
+sed -i 's/"IPTV Helper"/"IPTV助手"/g' `egrep "IPTV Helper" -rl ./`
