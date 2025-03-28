@@ -33,6 +33,7 @@ sed -i 's/"Release Ram"/"内存释放"/g' `egrep "Release Ram" -rl ./`
 sed -i 's/"ShadowSocksR Plus+"/"SSR Plus"/g' `egrep "ShadowSocksR Plus+" -rl ./`
 sed -i 's/"Custom Commands"/"命令脚本"/g' `egrep "Custom Commands" -rl ./`
 sed -i 's/"Scheduled Reboot"/"定时重启"/g' `egrep "Scheduled Reboot" -rl ./`
+sed -i 's/"UU游戏加速器"/"游戏加速"/g' `egrep "UU游戏加速器" -rl ./`
 sed -i 's/"Argon Config"/"主题设置"/g' `egrep "Argon Config" -rl ./`
 sed -i 's/"Wake on LAN"/"网络唤醒"/g' `egrep "Wake on LAN" -rl ./`
 sed -i 's/"v2rayA"/"v2ray"/g' `egrep "v2rayA" -rl ./`
