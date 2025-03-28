@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: 360t7-openwrt-24.10
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt/tree/openwrt-24.10
