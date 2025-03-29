@@ -9,30 +9,7 @@
 #
 
 name: Redmi_AX6000_openwrt-24.10
-#!/bin/bash
-set -e  # 遇到错误立即退出
 
-# 检查并移动 files 目录内容
-if [ -d "files" ]; then
-  mv files/* openwrt/files/ 2>/dev/null || true
-else
-  echo "警告：files 目录不存在，跳过移动。"
-fi
-
-# 检查并移动配置文件
-if [ -f "redmi_ax6000.config" ]; then
-  mv redmi_ax6000.config openwrt/.config
-else
-  echo "错误：redmi_ax6000.config 文件不存在！"
-  exit 1
-fi
-
-# 设置权限并进入目录
-chmod +x "$DIY_P2_SH"
-cd openwrt || exit 1
-
-# 执行脚本（添加错误处理）
-"$GITHUB_WORKSPACE/$DIY_P2_SH" || { echo "错误：diy-part2.sh 执行失败"; exit 1; }
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-24.10
